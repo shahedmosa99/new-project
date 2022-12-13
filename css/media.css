@@ -1,0 +1,135 @@
+@media (max-width: 576px) {
+ .first-sec {
+        display: block;
+    }
+nav ul li.logo{
+    margin-left: 150px;
+}
+nav #aboora{
+    margin-left: 16px;
+    text-align: center;
+}
+    .second-sec {
+        display: flex;
+        flex-direction: column-reverse;
+        padding-top: 40px;
+    }
+
+    .left-side {
+        padding-top: 60px;
+    }
+
+    .right-side .des {
+        width: 100%;
+        text-align: justify;
+    }
+
+    .person {
+        width: 350px;
+        height: 350px;
+    }
+
+    .articles {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .first-line {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .pas {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .my-works {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .box-statistic {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .pad-sta {
+        width: 100%;
+    }
+
+    .a-contact-form {
+        width: 100%;
+    }
+    .div-statistic{
+        padding: 0;
+        justify-content: space-around;
+    }
+}
+@media (min-width: 577px) and (max-width: 767.98px) {
+.first-sec {
+        display: block;
+    }
+
+    .second-sec {
+        display: flex;
+        flex-direction: column-reverse;
+        padding-top: 40px;
+    }
+
+    .left-side {
+        padding-top: 60px;
+    }
+
+    .right-side .des {
+        width: 100%;
+        text-align: justify;
+    }
+
+    .person {
+        width: 350px;
+        height: 350px;
+    }
+
+    .first-line {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .pas {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .a-contact-form {
+        width: 100%;
+    }
+
+    .my-works {
+        display: grid;
+        padding: 10px;
+        grid-template-columns: auto auto;
+        justify-content: space-between;
+    }
+
+    .work {
+        padding: 20px;
+    }
+    .box-statistic{
+         display: grid;
+        padding: 10px;
+        grid-template-columns: auto auto;
+        justify-content: space-between;
+    }
+    .statistic{
+        padding: 20px;
+    }
+      .articles {
+      display: grid;
+      grid-template-columns: auto auto;
+   }
+
+ .small{
+    width: 100%;
+ } 
+} 
